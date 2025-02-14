@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Dev Detective - Arpit Sharma</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+<!-- heading -->
+            <div class="header ">
+                <h1 class="title">DevDetective</h1>
+                <div class="theme">
+                    <div class="theme-text">LIGHT</div>
+                    <i id="theme-icon" class="fa-solid fa-sun"></i>
+                </div>
+            </div>
+<!-- search - section -->
+            <section class="search-section ">
+                <div class="together">
+                    <div class="search-icon"><img src="./search-icon.svg" alt="" height="19px"></div>
+                    <input type="search" autocomplete="off" placeholder="Enter a Github username..." name=""
+                        id="search">
+                    <div class="error">
+                        <p class=" no-result">no search result</p>
+                    </div>
+                </div>
+                <button class="blue-btn" type="submit">Search</button>
+            </section>
+<!-- main - section -->
+            <main class="profile-container">
+                <img class="avatar" src="" alt="" height="117" width="117">
+                <div class="profile-header">
+                    <div class="first-row">
+                        <div class="profile-name">
+                            <h2 id="name">Arpit Sharma</h2>
+                            <a href="" target="_blank" id="username">hahaha</a>
+                        </div>
+                        <span class="joined"></span>
+                    </div>
+                    <p id="bio">IT Engineer • internet craftsman 🛠️</p>
+                    <!-- <p id="bio">Ctrl + Z won't fix my life, but Git sure fixes my code! 🚀🔥</p> -->
+                    <div class="second-row">
+                        <div class="repos">
+                            <div class="repo-title first">Repos</div>
+                            <div class="repo-value second">XX</div>
+                        </div>
+                        <div class="followers">
+                            <div class="followers-title first">Followers</div>
+                            <div class="followers-value second">XX</div>
+                        </div>
+                        <div class="following">
+                            <div class="following-title first">Following</div>
+                            <div class="following-value second">XX</div>
+                        </div>
+                    </div>
+                    <div class="third">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="location-name">Location</div>
+
+                        <i class="fa-solid fa-link"></i>
+                        <div class="website-name">
+                            <a href="" id="page">Portfolio</a>
+                        </div>
+
+                        <i class="fa-brands fa-twitter"></i>
+                        <div class="twitter-name">
+                            <a href="" id="twitter">Twitter</a>
+                        </div>
+
+                        <i class="fa-solid fa-building"></i>
+                        <div class="company-name">Company</div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+<script src="script.js"></script>   
+</body>
+</html>
