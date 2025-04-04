@@ -87,7 +87,7 @@ function renderUserInfo(userinfo) {
         website.innerText = "Not Available";
         website.removeAttribute("href");
     }
-    // userID.href = `https://github.com/${userinfo?.login}`;
+    userID.href = `https://github.com/${userinfo?.login}`;
     const dateSegments = userinfo?.created_at.split("T")[0].split("-");
     joined.innerText = `Joined ${dateSegments[2]} ${months[dateSegments[1] - 1]} ${dateSegments[0]}`;
     bio.innerText = userinfo?.bio;
